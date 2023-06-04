@@ -2,8 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-<!-- This is a template for creating reusable React libraries using Vite and Storybook -->
-
 A template for creating reusable React libraries using Vite and Storybook.
 This "create react library" template is built with `vite` and has a `storybook` for component documentation.
 
