@@ -13,9 +13,9 @@ This "create react library" template is built with `vite` and has a `storybook` 
 
 ## Useful Information
 
-- `src/main.tsx` is the entry point to `npm run dev`.
 - `src/index.ts` is the entry point to the package published with `npm publish`. So only export components you wish to include in your npm package when it's published.
-- Ensure to create stories to serve as documentation for your users.
+- Ensure to create stories to serve as documentation for your users with `storybook`. run `npm run storybook` to start the dev server for your stories.
+- `src/main.tsx` is the entry point to `npm run dev`. Alternatively, you can import your local components here for dev testing.
 
 ## Scripts
 
