@@ -18,7 +18,9 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "vite build && npm run build:css",
+    "build": "npm run build:esm && npm run build:cjs && npm run build:css",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
     "build:css": "tailwindcss -m -i ./src/index.css -o ./dist/styles.css",
     "storybook": "concurrently \"npm run storybook:css\" \"storybook dev -p 6006\"",
     "storybook:css": "tailwindcss -w -i ./src/index.css -o ./src/index.css",
