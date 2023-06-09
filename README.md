@@ -22,7 +22,6 @@ This "create react library" template is built with `vite` and has a `storybook` 
 - `dev`: Start the development server with Vite.
 - `build`: Build the library using Vite and generate CSS using Tailwind CSS.
 - `storybook`: Start the Storybook development server with live CSS reloading.
-- `build-storybook`: Build a static version of the Storybook documentation.
 - `prepublishOnly`: Build the library before publishing.
 
 ## Getting Started
